@@ -40,7 +40,7 @@
     <!-- this is here because project.basedir evaluates to null in the script build step -->
     <main.basedir>${project.basedir}</main.basedir>
     <google.cloud.bigquery.version>1.72.0</google.cloud.bigquery.version>
-    <google.cloud.monitoring.version>1.72.0</google.cloud.monitoring.version>
+    <google.cloud.monitoring.version>1.82.0</google.cloud.monitoring.version>
     <protobuf.java.version>3.7.1</protobuf.java.version>
     <google.cloud.storage.version>1.98.0</google.cloud.storage.version>
     <retrofit.version>2.6.0</retrofit.version>
@@ -87,7 +87,7 @@
     <dependency>
       <groupId>com.google.cloud</groupId>
       <artifactId>google-cloud-firestore</artifactId>
-      <version>1.13.0</version>
+      <version>1.15.0</version>
     </dependency>
     <dependency>
       <groupId>net.sourceforge.jtds</groupId>
