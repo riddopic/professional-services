@@ -28,3 +28,4 @@ requests~=2.26.0
 responses~=0.18.0
 markupsafe~=2.0.0
 twilio~=7.9.0
+starkbank-ecdsa>=2.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
