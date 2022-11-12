@@ -18,3 +18,5 @@
 google-auth==1.18.0
 google-cloud-storage==1.29.0
 sendgrid==6.4.3
+protobuf>=3.18.3 # not directly required, pinned by Snyk to avoid a vulnerability
+rsa>=4.7 # not directly required, pinned by Snyk to avoid a vulnerability
