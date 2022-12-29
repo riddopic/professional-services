@@ -85,7 +85,7 @@ oauth2client==4.1.3
     # via gcs_bucket_mover (setup.py)
 packaging==20.9
     # via google-api-core
-protobuf==3.17.3
+protobuf==3.18.3
     # via
     #   google-api-core
     #   google-cloud-logging
@@ -117,7 +117,7 @@ requests==2.27.1
     #   google-cloud-storage
 retrying==1.3.3
     # via gcs_bucket_mover (setup.py)
-rsa==4.5
+rsa==4.7
     # via
     #   google-api-python-client
     #   google-auth
@@ -149,3 +149,4 @@ yaspin==1.5.0
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
