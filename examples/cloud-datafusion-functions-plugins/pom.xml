@@ -34,7 +34,7 @@
     <guava.version>28.0-jre</guava.version>
     <!-- properties for script build step that creates the config files for the artifacts -->
     <widgets.dir>widgets</widgets.dir>
-    <bigquery.connector.hadoop2.version>0.13.1-hadoop2</bigquery.connector.hadoop2.version>
+    <bigquery.connector.hadoop2.version>hadoop3-0.13.18</bigquery.connector.hadoop2.version>
     <docs.dir>docs</docs.dir>
     <!-- this is here because project.basedir evaluates to null in the script build step -->
     <main.basedir>${project.basedir}</main.basedir>
