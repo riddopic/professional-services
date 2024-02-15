@@ -38,7 +38,7 @@
     <docs.dir>docs</docs.dir>
     <!-- this is here because project.basedir evaluates to null in the script build step -->
     <main.basedir>${project.basedir}</main.basedir>
-    <google.cloud.bigquery.version>1.72.0</google.cloud.bigquery.version>
+    <google.cloud.bigquery.version>2.37.2</google.cloud.bigquery.version>
     <google.cloud.monitoring.version>1.72.0</google.cloud.monitoring.version>
     <protobuf.java.version>3.7.1</protobuf.java.version>
     <google.cloud.storage.version>1.98.0</google.cloud.storage.version>
