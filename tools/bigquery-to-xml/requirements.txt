@@ -1,3 +1,4 @@
 google-cloud-bigquery==1.28.0
 json2xml==3.5.0
 lxml==4.5.2
+requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability
