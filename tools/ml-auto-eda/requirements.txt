@@ -2,8 +2,13 @@ google-cloud-core >= 0.27.0
 google-cloud-bigquery>=1.9.0
 pandas>=0.24.0
 protobuf>=3.7.1
-numpy>=1.16.3
+numpy>=1.22.2
 scipy>=1.2.2
 matplotlib>=3.0.3
 seaborn>=0.9.0
 markdown2
+fonttools>=4.43.0 # not directly required, pinned by Snyk to avoid a vulnerability
+pillow>=10.3.0 # not directly required, pinned by Snyk to avoid a vulnerability
+requests>=2.32.2 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.2.2 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
