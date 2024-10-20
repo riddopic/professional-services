@@ -30,7 +30,7 @@
     <cdap.plugin.version>2.3.0-SNAPSHOT</cdap.plugin.version>
     <spark.version>2.1.3</spark.version>
     <cdap.version>6.5.1</cdap.version>
-    <hadoop.version>2.8.0</hadoop.version>
+    <hadoop.version>3.4.1</hadoop.version>
     <guava.version>28.0-jre</guava.version>
     <!-- properties for script build step that creates the config files for the artifacts -->
     <widgets.dir>widgets</widgets.dir>
@@ -204,7 +204,7 @@
     <dependency>
       <groupId>io.cdap.cdap</groupId>
       <artifactId>cdap-etl-api-spark</artifactId>
-      <version>6.1.1</version>
+      <version>6.5.0</version>
       <scope>provided</scope>
     </dependency>
     <dependency>
