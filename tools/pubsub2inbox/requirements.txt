@@ -29,4 +29,5 @@ responses~=0.18.0
 markupsafe~=2.0.0
 twilio~=7.9.0
 falcon~=3.1.0
-waitress~=2.1.0
+waitress~=3.0.1
+werkzeug>=3.0.6 # not directly required, pinned by Snyk to avoid a vulnerability
