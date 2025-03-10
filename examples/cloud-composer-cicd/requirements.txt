@@ -3,3 +3,5 @@
 # If you any other dependencies here, you must also ensure separately cloud composer has them.
 werkzeug==0.15.4 # needed for airflow 1.10.3
 apache-airflow[gcp]==1.10.3
+flask-appbuilder>=4.5.3 # not directly required, pinned by Snyk to avoid a vulnerability
+jinja2>=3.1.6 # not directly required, pinned by Snyk to avoid a vulnerability
