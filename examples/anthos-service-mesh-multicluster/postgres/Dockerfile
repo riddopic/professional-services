@@ -12,7 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-FROM alpine:3.12
+FROM alpine:3.16.7
 RUN apk --no-cache add postgresql-client
 RUN apk add --no-cache bash
 COPY certs/client-cert.pem /client-cert.pem 
