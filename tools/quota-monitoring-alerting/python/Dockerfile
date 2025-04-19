@@ -38,7 +38,7 @@ COPY . ./
 
 
 # App
-FROM python:3.9-slim AS app
+FROM python:3.13.0rc1-slim AS app
 COPY --from=base opt/venv /opt/venv
 ENV APP_HOME /app
 WORKDIR $APP_HOME
