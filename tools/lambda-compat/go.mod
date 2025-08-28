@@ -11,5 +11,5 @@ require (
 	github.com/rs/zerolog v1.26.1
 	golang.org/x/net v0.33.0 // indirect
 	google.golang.org/api v0.65.0
-	gopkg.in/yaml.v3 v3.0.0
+	gopkg.in/yaml.v3 v3.0.1
 )
